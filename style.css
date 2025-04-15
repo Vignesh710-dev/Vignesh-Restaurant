@@ -1,0 +1,1419 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#bgg-text1 {
+    font-family: "Bree Serif";
+    color: black;
+}
+
+#bgg-text2 {
+    font-family: "Bree Serif";
+    color: black;
+
+}
+
+#bgg-text3 {
+    font-family: "Bree Serif";
+    color: black;
+}
+
+#bgg-text4 {
+    font-family: "Bree Serif";
+    color: black;
+}
+
+#bgg-text5 {
+    font-family: "Bree Serif";
+    color: black;
+}
+
+
+.bgg-secound-conatiner {
+    background-image: url('https://img.freepik.com/free-photo/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg?t=st=1726600572~exp=1726604172~hmac=ca4fb9121b7b878d626a0fc21fb0b1887b9e556f98c406970f44139527f1e9ac&w=1060');
+    height: 95vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    font-size: 45px;
+    font-family: "Bree Serif";
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.banner-caption {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Bree Serif";
+}
+
+.custom-button {
+    background-color: #fcfc05;
+    border-radius: 8px;
+    border-width: 0px;
+    color: black;
+    width: 130px;
+    height: 45px;
+    font-family: "Bree Serif";
+    margin-right: 10px;
+
+}
+
+.custom-outline-button {
+    background-color: transparent;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #fcfc05;
+    color: white;
+    width: 130px;
+    height: 45px;
+    font-family: "Bree Serif";
+}
+
+.img-section {
+    width: 80px;
+    height: 85px;
+    border-radius: 100px;
+}
+
+
+.wcu-main-container {
+    background-color: #f9fbfe;
+}
+
+.wcu-heading {
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.wcu-paragraph {
+    color: #5a7184;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.wcu-cart-container {
+    background-color: white;
+    border-radius: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e5eaf4;
+    text-align: center;
+}
+
+.image-section {
+    width: 85px;
+    height: 90px;
+}
+
+.wcu-paragraph {
+    color: #7b8794;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.wcu-heading2 {
+    color: #323f4b;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.span-cart {
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+
+}
+
+
+.responsive-font {
+    font-family: "Bre Serif";
+}
+
+
+.exlpore-menu-section {
+    background-color: white;
+}
+
+.explore-menu-first-heading {
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #183b56;
+}
+
+.explore-menu-second-heading {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+.mage-meni-section {
+    border-radius: 16px;
+}
+
+.explore-menu-view-section {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #d0b200;
+}
+
+.menu-cart-conatiner {
+    border-radius: 16px;
+}
+
+
+#navbar-section-1 {
+    background-color: transparent;
+}
+
+
+.helighty-food-section-background {
+    background-color: white;
+}
+
+.helighty-section-image {
+    width: 280px;
+}
+
+.healthy-food-section-heading {
+    font-size: 28px;
+    color: #183b56;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.healthy-section-paragraph {
+    color: #5a7184;
+    font-size: 16px;
+    font-family: "Roboto";
+
+}
+
+.healthy-section-button {
+    width: 130px;
+    height: 48px;
+    color: #ffffff;
+    background-color: #d0b200;
+    border-width: 0px;
+    margin-right: 10px;
+    border-radius: 11px;
+}
+
+
+.delivery-payment-background {
+    background-color: white;
+}
+
+.delivery-payment-heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 700;
+    color: #183b56;
+}
+
+.delivery-payment-paragraph {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.delivery-payment-button {
+    background-color: #d0b200;
+    color: white;
+    border-radius: 11px;
+    width: 130px;
+    height: 48px;
+    border-width: 0px;
+    margin-right: 10px;
+}
+
+.delivery-payment-image {
+    width: 300px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+
+.thanking-section-container {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.thanking-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-section-paragrah {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: #5a7184;
+}
+
+.thanking-section-image1 {
+    width: 270px;
+}
+
+.thanking-section-button {
+    border-radius: 10px;
+    color: white;
+    border-width: 0px;
+    background-color: #d0b200;
+    width: 130px;
+    height: 40px;
+}
+
+.thanking-section-image2 {
+    width: 270px;
+}
+
+
+
+
+
+.follow-us-background {
+    background-color: white;
+}
+
+.follow-us-heading {
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.follow-us-img {
+    background-color: #faf7e8;
+    padding-right: 16px;
+    padding-left: 22px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    font-size: 35px;
+    width: 80px;
+    height: 80px;
+    color: #d0b200;
+    border-radius: 40px;
+    margin: 15px;
+}
+
+
+
+.address-section-image {
+    border-radius: 50px;
+    width: 90px;
+    height: 95px;
+}
+
+
+.address-section-background {
+    background-color: #0d2436;
+}
+
+.address-section-heading {
+    font-size: 16px;
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 20px;
+
+
+}
+
+.address-section-paragraph {
+    color: #959ead;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+
+/* Grill Page Styles */
+.grill-hero {
+    background: linear-gradient(135deg, #8E2DE2, #4A00E0);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.grill-tag {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(142, 45, 226, 0.1);
+    color: #8E2DE2;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.grill-tag i {
+    margin-right: 5px;
+}
+
+.nutrition-info {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nutrition-info span {
+    background: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(142, 45, 226, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #8E2DE2, #4A00E0);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(142, 45, 226, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .grill-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Seafood Page Styles */
+.seafood-hero {
+    background: linear-gradient(135deg, #00B4DB, #0083B0);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 180, 219, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.menu-card img {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.menu-card:hover img {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #00B4DB;
+    margin: 1rem 0;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #00B4DB, #0083B0);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 180, 219, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .seafood-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Soups Page Styles */
+.soup-hero {
+    background: linear-gradient(135deg, #FF6B6B, #4ECDC4);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 107, 107, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.menu-card img {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.menu-card:hover img {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #FF6B6B;
+    margin: 1rem 0;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #FF6B6B, #4ECDC4);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .soup-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Noodles Page Styles */
+.noodles-hero {
+    background: linear-gradient(135deg, #FF6B6B, #556270);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.spice-level {
+    margin: 15px 0;
+}
+
+.spice-badge {
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: #ffd700;
+    color: #333;
+}
+
+.spice-badge.hot {
+    background: #ff4757;
+    color: white;
+}
+
+.spice-badge.mild {
+    background: #7bed9f;
+    color: #2f3542;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 107, 107, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #FF6B6B, #556270);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .noodles-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Salads Page Styles */
+.salad-hero {
+    background: linear-gradient(135deg, #76b852, #8DC26F);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.health-tag {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(118, 184, 82, 0.1);
+    color: #76b852;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.health-tag i {
+    margin-right: 5px;
+}
+
+.nutrition-info {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nutrition-info span {
+    background: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(118, 184, 82, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #76b852, #8DC26F);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(118, 184, 82, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .salad-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+/* Bread Items Page Styles */
+.bread-hero {
+    background: linear-gradient(135deg, #FFA751, #FF7B25);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.bread-tag {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(255, 167, 81, 0.1);
+    color: #FF7B25;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.bread-tag i {
+    margin-right: 5px;
+}
+
+.nutrition-info {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nutrition-info span {
+    background: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 123, 37, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #FFA751, #FF7B25);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 123, 37, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .bread-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Egg Items Page Styles */
+.egg-hero {
+    background: linear-gradient(135deg, #FFB75E, #ED8F03);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.egg-tag {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(255, 183, 94, 0.1);
+    color: #ED8F03;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.egg-tag i {
+    margin-right: 5px;
+}
+
+.nutrition-info {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nutrition-info span {
+    background: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(237, 143, 3, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #FFB75E, #ED8F03);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(237, 143, 3, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .egg-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Fried Rice Page Styles */
+.rice-hero {
+    background: linear-gradient(135deg, #FF416C, #FF4B2B);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.rice-tag {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(255, 75, 43, 0.1);
+    color: #FF4B2B;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.rice-tag i {
+    margin-right: 5px;
+}
+
+.nutrition-info {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nutrition-info span {
+    background: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 75, 43, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #FF416C, #FF4B2B);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 75, 43, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .rice-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+/* Fries & Juice Page Styles */
+.juice-hero {
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.juice-tag {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(0, 176, 155, 0.1);
+    color: #00b09b;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.juice-tag i {
+    margin-right: 5px;
+}
+
+.nutrition-info {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nutrition-info span {
+    background: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 176, 155, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 176, 155, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .juice-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+/* Burger Page Styles */
+.burger-hero {
+    background: linear-gradient(135deg, #FF5F6D, #FFC371);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.burger-tag {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(255, 95, 109, 0.1);
+    color: #FF5F6D;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.burger-tag i {
+    margin-right: 5px;
+}
+
+.nutrition-info {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nutrition-info span {
+    background: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 95, 109, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #FF5F6D, #FFC371);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 95, 109, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .burger-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+/* Sandwich Page Styles */
+.sandwich-hero {
+    background: linear-gradient(135deg, #FF9A8B, #FF6B95);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.sandwich-tag {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(255, 154, 139, 0.1);
+    color: #FF6B95;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.sandwich-tag i {
+    margin-right: 5px;
+}
+
+.nutrition-info {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nutrition-info span {
+    background: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 107, 149, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #FF9A8B, #FF6B95);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 107, 149, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sandwich-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}
+/* Momos Page Styles */
+.momo-hero {
+    background: linear-gradient(135deg, #FF7B54, #FFB26B);
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.momo-tag {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(255, 123, 84, 0.1);
+    color: #FF7B54;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.momo-tag i {
+    margin-right: 5px;
+}
+
+.nutrition-info {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nutrition-info span {
+    background: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.menu-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 123, 84, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.order-btn {
+    background: linear-gradient(135deg, #FF7B54, #FFB26B);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 123, 84, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .momo-hero {
+        padding: 60px 0;
+    }
+    
+    .menu-card {
+        margin-bottom: 30px;
+    }
+}

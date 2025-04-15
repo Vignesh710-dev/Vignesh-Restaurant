@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grill Menu - Vignesh Restaurant</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i.pinimg.com/564x/59/28/ef/5928ef7cae44045ab92df313c6fc18bf.jpg" alt="Logo" class="img-section">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#menu-section">Menu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="grill-hero text-center py-5">
+        <div class="container">
+            <h1 class="display-4 mt-5 pt-5" data-aos="fade-up">Grill Specialties</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Experience the authentic smoky flavors</p>
+        </div>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Menu Item 1 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+                <div class="card menu-card">
+                    <div class="card-badge">Bestseller</div>
+                    <img src="https://images.unsplash.com/photo-1603360946369-dc9bb6258143" class="card-img-top" alt="Grilled Chicken">
+                    <div class="card-body">
+                        <div class="grill-tag">
+                            <i class="fas fa-fire"></i> Smoky
+                        </div>
+                        <h5 class="card-title">Grilled Chicken</h5>
+                        <p class="card-text">Juicy chicken marinated in special spices and grilled to perfection</p>
+                        <div class="nutrition-info">
+                            <span>320 cal</span>
+                            <span>28g protein</span>
+                        </div>
+                        <p class="price">₹299</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Item 2 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card menu-card">
+                    <div class="card-badge">Chef's Special</div>
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947" class="card-img-top" alt="Grilled Prawns">
+                    <div class="card-body">
+                        <div class="grill-tag">
+                            <i class="fas fa-pepper-hot"></i> Spicy
+                        </div>
+                        <h5 class="card-title">Grilled Prawns</h5>
+                        <p class="card-text">Jumbo prawns marinated in garlic butter and grilled</p>
+                        <div class="nutrition-info">
+                            <span>280 cal</span>
+                            <span>24g protein</span>
+                        </div>
+                        <p class="price">₹399</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Item 3 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card menu-card">
+                    <img src="https://images.unsplash.com/photo-1559847844-5315695dadae" class="card-img-top" alt="Grilled Lamb Chops">
+                    <div class="card-body">
+                        <div class="grill-tag">
+                            <i class="fas fa-star"></i> Premium
+                        </div>
+                        <h5 class="card-title">Grilled Lamb Chops</h5>
+                        <p class="card-text">Tender lamb chops with rosemary and garlic marinade</p>
+                        <div class="nutrition-info">
+                            <span>380 cal</span>
+                            <span>32g protein</span>
+                        </div>
+                        <p class="price">₹499</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

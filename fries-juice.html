@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fries & Juice Menu - Vignesh Restaurant</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i.pinimg.com/564x/59/28/ef/5928ef7cae44045ab92df313c6fc18bf.jpg" alt="Logo" class="img-section">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#menu-section">Menu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="juice-hero text-center py-5">
+        <div class="container">
+            <h1 class="display-4 mt-5 pt-5" data-aos="fade-up">Fries & Juice Bar</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Refreshments to complement your meal</p>
+        </div>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Menu Item 1 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+                <div class="card menu-card">
+                    <div class="card-badge">Bestseller</div>
+                    <img src="https://images.unsplash.com/photo-1512152272829-e3139592d56f" class="card-img-top" alt="French Fries">
+                    <div class="card-body">
+                        <div class="juice-tag">
+                            <i class="fas fa-fire"></i> Crispy
+                        </div>
+                        <h5 class="card-title">French Fries</h5>
+                        <p class="card-text">Golden crispy fries with our special seasoning</p>
+                        <div class="nutrition-info">
+                            <span>365 cal</span>
+                            <span>4g protein</span>
+                        </div>
+                        <p class="price">₹129</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Item 2 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card menu-card">
+                    <div class="card-badge">Chef's Special</div>
+                    <img src="https://images.unsplash.com/photo-1621844400604-5e6f2a1a9f83" class="card-img-top" alt="Fresh Juice">
+                    <div class="card-body">
+                        <div class="juice-tag">
+                            <i class="fas fa-leaf"></i> Healthy
+                        </div>
+                        <h5 class="card-title">Fresh Juice</h5>
+                        <p class="card-text">Seasonal fruits blended into refreshing juices</p>
+                        <div class="nutrition-info">
+                            <span>150 cal</span>
+                            <span>2g protein</span>
+                        </div>
+                        <p class="price">₹99</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Item 3 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card menu-card">
+                    <img src="https://images.unsplash.com/photo-1551029506-0807df4e2031" class="card-img-top" alt="Mocktail">
+                    <div class="card-body">
+                        <div class="juice-tag">
+                            <i class="fas fa-star"></i> Premium
+                        </div>
+                        <h5 class="card-title">Virgin Mojito</h5>
+                        <p class="card-text">Refreshing mint and lime mocktail</p>
+                        <div class="nutrition-info">
+                            <span>120 cal</span>
+                            <span>1g protein</span>
+                        </div>
+                        <p class="price">₹149</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

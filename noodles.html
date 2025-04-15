@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noodles Menu - Vignesh Restaurant</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i.pinimg.com/564x/59/28/ef/5928ef7cae44045ab92df313c6fc18bf.jpg" alt="Logo" class="img-section">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#menu-section">Menu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="noodles-hero text-center py-5">
+        <div class="container">
+            <h1 class="display-4 mt-5 pt-5" data-aos="fade-up">Delicious Noodles</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Experience the authentic taste of Asian cuisine</p>
+        </div>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Menu Item 1 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+                <div class="card menu-card">
+                    <div class="card-badge">Bestseller</div>
+                    <img src="https://images.unsplash.com/photo-1552611052-33e04de081de" class="card-img-top" alt="Chicken Hakka Noodles">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Hakka Noodles</h5>
+                        <p class="card-text">Stir-fried noodles with tender chicken and fresh vegetables</p>
+                        <div class="spice-level">
+                            <span class="spice-badge">Medium Spicy</span>
+                        </div>
+                        <p class="price">₹249</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Item 2 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card menu-card">
+                    <div class="card-badge">Chef's Special</div>
+                    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624" class="card-img-top" alt="Schezwan Noodles">
+                    <div class="card-body">
+                        <h5 class="card-title">Schezwan Noodles</h5>
+                        <p class="card-text">Spicy noodles with Indo-Chinese sauce and vegetables</p>
+                        <div class="spice-level">
+                            <span class="spice-badge hot">Hot</span>
+                        </div>
+                        <p class="price">₹229</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Item 3 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card menu-card">
+                    <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246" class="card-img-top" alt="Mixed Noodles">
+                    <div class="card-body">
+                        <h5 class="card-title">Mixed Noodles</h5>
+                        <p class="card-text">Combination of vegetables and meat in garlic sauce</p>
+                        <div class="spice-level">
+                            <span class="spice-badge mild">Mild</span>
+                        </div>
+                        <p class="price">₹279</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

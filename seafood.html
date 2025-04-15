@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea Food Menu - Vignesh Restaurant</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i.pinimg.com/564x/59/28/ef/5928ef7cae44045ab92df313c6fc18bf.jpg" alt="Logo" class="img-section">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#menu-section">Menu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="seafood-hero text-center py-5">
+        <div class="container">
+            <h1 class="display-4 mt-5 pt-5" data-aos="fade-up">Fresh Seafood Delights</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Discover the ocean's finest treasures</p>
+        </div>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Menu Item 1 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+                <div class="card menu-card">
+                    <div class="card-badge">Chef's Special</div>
+                    <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b" class="card-img-top" alt="Grilled Lobster">
+                    <div class="card-body">
+                        <h5 class="card-title">Grilled Lobster</h5>
+                        <p class="card-text">Fresh lobster grilled with garlic butter and herbs</p>
+                        <p class="price">₹1299</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Item 2 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card menu-card">
+                    <div class="card-badge">Popular</div>
+                    <img src="https://images.unsplash.com/photo-1623341214825-9f4f963727da" class="card-img-top" alt="Butter Garlic Prawns">
+                    <div class="card-body">
+                        <h5 class="card-title">Butter Garlic Prawns</h5>
+                        <p class="card-text">Succulent prawns in garlic butter sauce</p>
+                        <p class="price">₹549</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Item 3 -->
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card menu-card">
+                    <img src="https://images.unsplash.com/photo-1535424971197-0d326ec9d356" class="card-img-top" alt="Grilled Fish">
+                    <div class="card-body">
+                        <h5 class="card-title">Grilled Fish Platter</h5>
+                        <p class="card-text">Fresh catch of the day with lemon herb sauce</p>
+                        <p class="price">₹699</p>
+                        <button class="btn btn-primary order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

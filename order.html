@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Order - Vignesh Restaurant</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    
+    <style>
+        /* Zomato-inspired color scheme */
+        :root {
+            --primary: #cb202d;
+            --secondary: #333;
+            --light-bg: #f8f8f8;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--light-bg);
+        }
+        
+        /* New header style */
+        .order-header {
+            background: var(--primary);
+            color: white;
+            padding: 15px 0;
+            position: relative;
+        }
+        
+        .restaurant-info {
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+        
+        .restaurant-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        
+        /* Real-time tracking card */
+        .tracking-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        
+        .tracking-steps {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            margin: 30px 0;
+        }
+        
+        .tracking-step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .step-icon {
+            width: 40px;
+            height: 40px;
+            background: #ddd;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+            color: white;
+        }
+        
+        .step-icon.active {
+            background: var(--primary);
+        }
+        
+        .tracking-steps:before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: #ddd;
+            z-index: 0;
+        }
+        
+        /* Notification preferences */
+        .notification-prefs {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        
+        .pref-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .tracking-steps {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .tracking-steps:before {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="order-header">
+        <div class="restaurant-info">
+            <img src="restaurant-logo.jpg" alt="Restaurant" class="restaurant-image">
+            <div>
+                <h2>Vignesh Restaurant</h2>
+                <p>Order #ORD-12345</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="tracking-card">
+        <h3>Track Your Order</h3>
+        <div class="tracking-steps">
+            <div class="tracking-step">
+                <div class="step-icon active"><i class="fas fa-check"></i></div>
+                <p>Order Placed</p>
+                <small>2:30 PM</small>
+            </div>
+            <div class="tracking-step">
+                <div class="step-icon active"><i class="fas fa-utensils"></i></div>
+                <p>Preparing</p>
+                <small>Estimated: 2:45 PM</small>
+            </div>
+            <div class="tracking-step">
+                <div class="step-icon"><i class="fas fa-motorcycle"></i></div>
+                <p>On the Way</p>
+                <small>Estimated: 3:00 PM</small>
+            </div>
+            <div class="tracking-step">
+                <div class="step-icon"><i class="fas fa-home"></i></div>
+                <p>Delivered</p>
+            </div>
+        </div>
+        
+        <div class="delivery-info">
+            <h4>Delivery Partner</h4>
+            <div class="delivery-person">
+                <img src="delivery-person.jpg" alt="Delivery Person">
+                <div>
+                    <p>Rahul Kumar</p>
+                    <small>+91 98765 43210</small>
+                </div>
+                <a href="#" class="btn btn-outline-primary">Call</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification-prefs">
+        <h3>Notification Preferences</h3>
+        <div class="pref-item">
+            <div>
+                <h5>Order Status Updates</h5>
+                <small>Get notified when your order status changes</small>
+            </div>
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="pref-item">
+            <div>
+                <h5>Special Offers</h5>
+                <small>Receive exclusive deals and discounts</small>
+            </div>
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+
+    <script>
+        // Real-time updates with Socket.io
+        const socket = io('https://your-socket-server.com');
+        
+        socket.on('orderUpdate', (data) => {
+            // Update UI based on order status
+            updateOrderStatus(data.status);
+            
+            // Show notification if enabled
+            if(Notification.permission === "granted" && document.querySelector('#status-notifications').checked) {
+                new Notification(`Order Update: ${data.status}`, {
+                    body: data.message
+                });
+            }
+        });
+        
+        function updateOrderStatus(status) {
+            // Update tracking steps based on status
+            const steps = document.querySelectorAll('.tracking-step');
+            steps.forEach(step => {
+                const icon = step.querySelector('.step-icon');
+                if(step.querySelector('p').textContent.includes(status)) {
+                    icon.classList.add('active');
+                }
+            });
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            if('Notification' in window) {
+                Notification.requestPermission();
+            }
+        });
+    </script>
+</body>
+</html>
